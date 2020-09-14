@@ -1,18 +1,18 @@
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: inherit;
 }
 
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background-color: #E0E1E0;
+    background-color: #f2bc94;
 }
- 
+
 .container {
     display: flex;
 }
-  
+
 .left-menu {
     position: fixed;
     box-sizing: border-box;
@@ -21,12 +21,11 @@ html, body {
     flex-direction: column;
     width: 25%;
     height: 100vh;
-    background-color: #231F20;
+    background-color: #00154f;
     align-items: center;
     justify-content: space-around;
     padding: 2rem;
-    color: #E0E1E0;
-   
+    color: #f4af1b;
 }
 
 .top-left-menu {
@@ -57,7 +56,8 @@ html, body {
     left: 25%;
     width: 75%;
     height: 10vh;
-    background-color: #AF0421;
+    background-color: #f4af1b;
+    color: #00154f;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,6 +69,7 @@ html, body {
     position: relative;
     left: 25%;
     margin: 1rem;
+    color: #00154f;
 }
 
 a {
@@ -79,7 +80,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.section{
+.section {
     display: flex;
     align-items: center;
     padding-left: 1rem;
@@ -93,7 +94,7 @@ a:hover {
     min-height: 90vh;
 }
 
-.project-section{
+.project-section {
     display: flex;
     flex-direction: column;
     height: 90vh;
