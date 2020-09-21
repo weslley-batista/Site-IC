@@ -11,10 +11,18 @@
 </head>
 
 <body>
+    <!-- Imaginem divs como caixas, a container é uma caixa grandona que vai 
+    conter as outras caixas menores que são left-menu, header e main -->
     <div class="container">
+        <!-- Dentro de uma div você pode por outra div, sim. Pode por qualquer tag como h1,
+        p, etc. -->
         <div class="left-menu">
+            <!-- class="alguma-coisa" serve para podermos referênciar as tags
+            que contém essa classe, assim podemos reaproveitar o código do css.
+            podemos usar a flag ID tbm, imaginem flags como parâmetros de funções-->
             <div class="top-left-menu">
                 <img class="profile-photo" src="./assets/profile.jpeg" alt="profile">
+                <!-- Existe do h1 ao h6, o tamanho da fonte diminui à medida q vc chega perto do 6-->
                 <h2>Adriano Lorena Inácio de Oliveira</h2>
                 <h3>Professor Adjunto IV</h3>
                 <h4>Centro de Informática - UFPE</h4>
@@ -24,11 +32,21 @@
                 <p>Av. Jornalista Anibal Fernandes, s/n, Cidade Universitária, 50740560 - Recife, PE - Brasil</p>
                 <h4>Telefone:</h4>
                 <p>(81) 2126-8430</p>
+                <!-- Aqui temos uma nova tag q é o <a>, tudo que tem dentro dela vira um link
+                    ela tem um parâmetro principal q é o href, serve para indicar que ação o
+                link deve tomar, neste caso é ir para o site do cin. Uma coisa importante é lembrar 
+            de usar o HTTP. -->
                 <a href="http://www.cin.ufpe.br" target="_blank">http://www.cin.ufpe.br</a>
             </div>
         </div>
+        <!-- <header> representa um grupo de suporte introdutório ou navegacional. Pode conter 
+            alguns elementos de cabeçalho mas também outros elementos como um logo, seções de 
+            cabeçalho, formulário de pesquisa, e outros. 
+            Eu copiei esse textinho do google pq não consegui formular bem oq a tag fazia KKK-->
         <header class="header">
             <div class="about">
+                <!-- Outro exemplo de uso do link, nesse caso temos #about que faz referência a um 
+                elemento do próprio arquivo. Neste caso, à section about lá no main-->
                 <a href="#about">Sobre</a>
             </div>
             <div class="projects">
@@ -41,10 +59,18 @@
                 <a href="#teaching">Ensino</a>
             </div>
         </header>
+        <!-- A tag main serve apenas para definir qual o conteúdo principal da página, 
+            como se fosse o main de java. Poderia ser uma div, mas preferimos usar main 
+            por questões didáticas-->
         <main class="main">
+            <!-- O id da section é usado quando queremos nos referir a ela
+                lá em cima no header-->
             <section class="section" id="about">
                 <div class="section-content">
                     <h2>Professor atuante na área de Inteligência Artificial</h2>
+                    <!-- Listas são algo muito comuns, aq temos uma tag de listas UL
+                que indica que agora temos uma lista e a LI (list item) que indica um item da 
+                nossa lista-->
                     <ul style="list-style: none; font-size: large;">
                         <li><i>Pós-doutorado em Ciências da Computação, École de Technologie Supérieure de
                                 Montréal, ETSMTL, Canadá</i></li>

@@ -1,3 +1,5 @@
+/*Raiz do nosso CSS*/
+
 * {
     font-family: 'Roboto', sans-serif;
     color: inherit;
@@ -12,6 +14,9 @@ html, body {
 .container {
     display: flex;
 }
+
+/*Os nomes das propriedades e os valores são bem sugestivos ent não tem mt oq falar, oq eu recomendo q vcs façam é pesquisar 
+sobre position, é algo mt importante no css. Além disso, vejam sobre as diferentes unidades de medida.*/
 
 .left-menu {
     position: fixed;
