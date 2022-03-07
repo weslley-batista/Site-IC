@@ -8,7 +8,7 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background-color: #f2bc94;
+    background-color: #FCF6F5;
 }
 
 .container {
@@ -26,11 +26,11 @@ sobre position, é algo mt importante no css. Além disso, vejam sobre as difere
     flex-direction: column;
     width: 25%;
     height: 100vh;
-    background-color: #00154f;
+    background-color: #2BAE66;
     align-items: center;
     justify-content: space-around;
     padding: 2rem;
-    color: #f4af1b;
+    color: #FCF6F5;
 }
 
 .top-left-menu {
@@ -61,20 +61,22 @@ sobre position, é algo mt importante no css. Além disso, vejam sobre as difere
     left: 25%;
     width: 75%;
     height: 10vh;
-    background-color: #f4af1b;
-    color: #00154f;
+    background-color: #2BAE66;
+    color: #FCF6F5;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 1rem;
     z-index: 1;
+    border-left: 1px solid #FCF6F5;
+
 }
 
 .main {
     position: relative;
     left: 25%;
     margin: 1rem;
-    color: #00154f;
+    color: #2BAE66;
 }
 
 a {
@@ -88,11 +90,11 @@ a:hover {
 .section {
     display: flex;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 0.3rem;
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    max-width: 75rem;
+    max-width: 60rem;
 }
 
 .section .section-content {
